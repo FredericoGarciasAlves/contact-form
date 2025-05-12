@@ -1,0 +1,228 @@
+.main {
+  width: 100%;
+  background-color: #e0f1e8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 12.8rem;
+  padding-bottom: 12.8rem;
+}
+
+.main .section {
+  width: 73rem;
+  background-color: #fff;
+  padding: 4rem;
+  border-radius: 1rem;
+}
+
+.main .section .title {
+  font-family: "Karia", sans-serif;
+  src: url(./assets/fonts/static/Karla-Bold.ttf);
+  font-size: 2.4rem;
+  font-weight: 900;
+  color: #244144;
+}
+
+.main .section .form {
+  margin-top: 3.2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.main .section .form .box-name {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main .section .form .box-name .box-name-input {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.8rem;
+}
+
+.main .section .form .box-name .box-name-input .label-name {
+  font-size: 2rem;
+  font-family: "Karia", sans-serif;
+  src: url(./assets/fonts/static/Karla-Regular.ttf);
+  color: #244144;
+}
+
+.asterisco {
+  color: #0c7d69;
+  font-size: 2rem;
+}
+
+.main .section .form .box-name .box-name-input .name-input {
+  width: 32rem;
+  height: 5.1rem;
+  border: 1px solid #86a2a5;
+  border-radius: 1rem;
+  padding: 1rem;
+  font-size: 2rem;
+  color: #244144;
+}
+
+.main .section .form .label-email-address,
+.main .section .form .label-query-type,
+.main .section .form .label-message,
+.main .section .form .label-contacted-team {
+  font-family: "Karia", sans-serif;
+  src: url(./assets/fonts/static/Karla-Regular.ttf);
+  font-size: 2rem;
+  color: #244144;
+  margin-top: 2.4rem;
+}
+
+.main .section .form #e-address {
+  margin-top: 0.8rem;
+  height: 5.1rem;
+  border-radius: 1rem;
+  border: 1px solid #86a2a5;
+  padding: 1rem;
+  font-size: 2rem;
+  color: #244144;
+}
+
+.main .section .form .box-query-type {
+  display: flex;
+  column-gap: 1.6rem;
+}
+
+.main .section .form .box-query-type .box-radio-query-type {
+  width: 32rem;
+  height: 5.1rem;
+  border: 1px solid #86a2a5;
+  border-radius: 1rem;
+  padding: 1.35rem 2.4rem;
+  margin-top: 1.6rem;
+}
+
+.main .section .form .box-query-type .box-radio-query-type .radio-query-type,
+#contacted-team {
+  transform: scale(1.5);
+  /* corrige o espaçamento que o scale pode bagunçar */
+  margin-bottom: 1.1rem;
+  margin-right: 1.2rem;
+  border: 1px solid #86a2a5;
+  vertical-align: middle;
+}
+
+.main
+  .section
+  .form
+  .box-query-type
+  .box-radio-query-type
+  .label-option-query-type {
+  font-family: "Karia", sans-serif;
+  src: url(./assets/fonts/static/Karla-Regular.ttf);
+  font-size: 2.2rem;
+  color: #244144;
+}
+
+#message {
+  height: 10.5rem;
+  border-radius: 1rem;
+  border: 1px solid #86a2a5;
+  margin-top: 0.8rem;
+  padding: 1rem;
+  font-size: 2rem;
+  color: #244144;
+}
+
+.main .section .form .box-contacted-team {
+  margin-top: 4rem;
+  column-gap: 1.6rem;
+  display: flex;
+  align-items: center;
+}
+
+#contacted-team {
+  margin-top: 3.2rem;
+}
+
+.main .section .form .box-contacted-team .label-contacted-team {
+  font-family: "Karia", sans-serif;
+  src: url(./assets/fonts/static/Karla-Regular.ttf);
+  font-size: 2rem;
+  color: #244144;
+  margin-top: 2.4rem;
+}
+
+.main .section .form .btn-submit {
+  margin-top: 4rem;
+  height: 6rem;
+  border-radius: 1rem;
+  border: none;
+  background-color: #0c7d69;
+  font-family: "Karia", sans-serif;
+  src: url(./assets/fonts/static/Karla-Regular.ttf);
+  font-size: 2.2rem;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.2rem;
+}
+
+.main .section .form .box-name .box-name-input .name-input:hover,
+.main .section .form #e-address:hover,
+.main .section .form .box-query-type .box-radio-query-type:hover,
+#message:hover {
+  border: 1px solid #0c7d69;
+  cursor: pointer;
+}
+
+.main .section .form .btn-submit:hover {
+  background-color: #0a4b3f;
+  cursor: pointer;
+}
+
+.message-error-f-name,
+.message-error-l-name,
+.message-error-e-name,
+.message-error-input-radio,
+.message-error-textarea-message,
+.message-error-input-checkbox {
+  color: #d73c3c;
+  font-family: "Karia", sans-serif;
+  src: url(./assets/fonts/static/Karla-Regular.ttf);
+  font-size: 2rem;
+  margin-top: 0.8rem;
+}
+
+.message-error-input-radio {
+  margin-top: 1.6rem;
+}
+
+.box-message-sent {
+  position: absolute;
+  left: 38%;
+  top: 2.4rem;
+  width: 45rem;
+  height: 10.8rem;
+  padding: 2.4rem;
+  border-radius: 1rem;
+  background-color: #244144;
+}
+
+.box-message-sent .line-message-sent {
+  display: flex;
+  align-items: center;
+  column-gap: 0.8rem;
+  color: #fff;
+}
+
+.box-message-sent .line-message-sent .icon-message-sent {
+  width: 2.4rem;
+}
+
+.box-message-sent .line-message-sent p {
+  font-size: 1.9rem;
+  font-weight: 700;
+  font-family: "Karia", sans-serif;
+}
+
+.box-message-sent .pagrath-message-sent {
+  font-size: 1.6rem;
+  font-family: "Karia", sans-serif;
+  margin-top: 1rem;
+  color: #fff;
+}

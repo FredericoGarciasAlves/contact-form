@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <link rel="stylesheet" href="global.css" />
+    <title>Contact Form</title>
+  </head>
+  <body>
+    <main class="main">
+      <section class="section">
+        <h1 class="title">Contact Us</h1>
+        <form action="" class="form" id="form" novalidate>
+          <div class="box-name">
+            <div class="box-name-input">
+              <label for="f-name" class="label-name"
+                >First Name <span class="asterisco">*</span></label
+              >
+              <input
+                type="text"
+                name="first-name"
+                id="f-name"
+                class="name-input"
+              />
+            </div>
+            <div class="box-name-input">
+              <label for="l-name" class="label-name"
+                >last Name <span class="asterisco">*</span></label
+              >
+              <input
+                type="text"
+                name="last-name"
+                id="l-name"
+                class="name-input"
+              />
+            </div>
+          </div>
+
+          <label for="e-address" class="label-email-address"
+            >Email Addresss <span class="asterisco">*</span></label
+          >
+          <input type="email" name="email-address" id="e-address" />
+
+          <label for="query-type" class="label-query-type"
+            >Query Type <span class="asterisco">*</span></label
+          >
+          <div id="query-type" class="box-query-type">
+            <div class="box-radio-query-type">
+              <input
+                type="radio"
+                name="query-type"
+                id="general-enquiry"
+                class="radio-query-type"
+              />
+              <label for="general-enquiry" class="label-option-query-type"
+                >General Equiry</label
+              >
+            </div>
+            <div class="box-radio-query-type">
+              <input
+                type="radio"
+                name="query-type"
+                id="support-request"
+                class="radio-query-type"
+              />
+              <label for="support-request" class="label-option-query-type"
+                >Support Request</label
+              >
+            </div>
+          </div>
+
+          <label for="message" class="label-message"
+            >Message <span class="asterisco">*</span></label
+          >
+          <textarea name="message" id="message"></textarea>
+
+          <div class="box-contacted-team">
+            <input type="checkbox" name="contacted-team" id="contacted-team" />
+            <label for="contacted-team" class="label-contacted-team"></p>
+              I consent to being contacted by the team
+            </label>
+          </div>
+
+          <button type="submit" class="btn-submit" id="btn-submit">
+            Submit
+          </button>
+        </form>
+      </section>
+    </main>
+    <script src="script.js"></script>
+    t
+  </body>
+</html>
